@@ -10,6 +10,7 @@ import Signup from "./pages/Signup";
 import SafetyandGuidelines from "./pages/SafetyandGuidelines";
 import TermsandServices from "./pages/TermsandServices";
 import ContactUs from "./pages/ContactUs";
+import Notfound from "./components/Notfound";
 
 function App() {
   const pages = useRoutes([
@@ -21,6 +22,7 @@ function App() {
     { path: "safetyandguidelines", element: <SafetyandGuidelines /> },
     { path: "termsandservices", element: <TermsandServices /> },
     { path: "contactus", element: <ContactUs /> },
+    { path: "*", element: <Notfound /> },
   ]);
 
   return (
