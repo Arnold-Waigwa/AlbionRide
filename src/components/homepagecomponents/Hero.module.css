@@ -1,0 +1,21 @@
+@import "../../vars.css";
+
+.hero {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.hero h1 {
+  font-size: 48pt;
+  color: var(--color-yellow);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.hero h2 {
+  font-size: 34pt;
+}
