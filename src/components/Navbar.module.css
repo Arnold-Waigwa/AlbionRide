@@ -1,0 +1,70 @@
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbarImage {
+  display: flex;
+  align-items: center;
+  max-height: 50px;
+  padding: 8px 4px 8px 12px;
+  vertical-align: middle;
+  background: transparent;
+}
+
+.navbarImage img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.navbar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.menuItems {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menuItems a {
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.moreBtn {
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  padding: 15px 25px;
+  border-radius: 3px;
+  z-index: 1000;
+  min-width: 180px;
+  margin-top: 5px;
+}
+
+.dropdownMenu li {
+  margin-bottom: 15px;
+  white-space: nowrap;
+}
+
+.dropdownMenu a {
+  color: white;
+  display: block;
+}

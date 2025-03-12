@@ -7,11 +7,11 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.navbarImage}>
+    <div className={styles.navbarWrapper}>
+      <span className={styles.navbarImage}>
         <img src={getImageUrl("nav/Albionride.jpeg")} alt="Albion Ride Logo" />
-      </div>
-      <div className={styles.navbarContainer}>
+      </span>
+      <nav className={styles.navbar}>
         <h3 className={styles.title}>Albion Ride</h3>
         <ul className={styles.menuItems}>
           <li>
@@ -47,8 +47,8 @@ const Navbar = () => {
             )}
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
 
