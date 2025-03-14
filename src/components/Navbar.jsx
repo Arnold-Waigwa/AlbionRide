@@ -26,25 +26,27 @@ const Navbar = () => {
           <li>
             <Link to="/offeraride">Offer a Ride</Link>
           </li>
-          <li
-            className={styles.dropdown}
-            onMouseEnter={() => setIsDropdownOpen(true)}
-            onMouseLeave={() => setIsDropdownOpen(false)}
-          >
-            <span className={styles.moreBtn}>More ▼</span>
-            {isDropdownOpen && (
-              <ul className={styles.dropdownMenu}>
-                <li>
-                  <Link to="/safetyandguidelines">Safety & Guidelines</Link>
-                </li>
-                <li>
-                  <Link to="/termsandservices">Terms & Services</Link>
-                </li>
-                <li>
-                  <Link to="/contactus">Contact Us</Link>
-                </li>
-              </ul>
-            )}
+          <li className={styles.dropdown}>
+            <div
+              className={styles.dropdownWrapper}
+              onMouseEnter={() => setIsDropdownOpen(true)}
+              onMouseLeave={() => setIsDropdownOpen(false)}
+            >
+              <span className={styles.moreBtn}>More ▼</span>
+              {isDropdownOpen && (
+                <ul className={styles.dropdownMenu}>
+                  <li>
+                    <Link to="/safetyandguidelines">Safety & Guidelines</Link>
+                  </li>
+                  <li>
+                    <Link to="/termsandservices">Terms & Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/contactus">Contact Us</Link>
+                  </li>
+                </ul>
+              )}
+            </div>
           </li>
         </ul>
       </nav>

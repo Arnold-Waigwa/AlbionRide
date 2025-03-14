@@ -25,12 +25,7 @@ function App() {
     { path: "*", element: <Notfound /> },
   ]);
 
-  return (
-    <>
-      <Navbar></Navbar>
-      {pages}
-    </>
-  );
+  return <>{pages}</>;
 }
 
 export default App;
