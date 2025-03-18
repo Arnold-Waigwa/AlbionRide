@@ -6,7 +6,7 @@ const AlbionRide = () => {
   return (
     <div className={styles.container}>
       <img
-        src={getImageUrl("nav/Albionride.jpeg")}
+        src={getImageUrl("Images/Logo.png")}
         alt="Albion Ride Logo"
         className={styles.image}
       />

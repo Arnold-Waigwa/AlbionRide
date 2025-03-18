@@ -66,3 +66,7 @@
   line-height: 150%;
   text-decoration: none;
 }
+
+.loginBox a:hover {
+  text-decoration: underline;
+}

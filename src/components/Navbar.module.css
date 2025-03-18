@@ -3,6 +3,8 @@
   align-items: center;
   gap: 12px;
   background: transparent;
+  position: relative;
+  z-index: 100;
 }
 
 .navbarImage {
@@ -15,8 +17,9 @@
 }
 
 .navbarImage img {
-  height: 40px;
+  height: 100px;
   object-fit: contain;
+  background: transparent;
 }
 
 .navbar {
@@ -25,11 +28,19 @@
   align-items: center;
   margin-right: 50px;
   background: transparent;
+  position: relative;
+  z-index: 100;
 }
 
 .title {
   margin-right: auto;
-  color: white;
+  color: #501776;
+  height: 42px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 .menuItems {
@@ -41,6 +52,7 @@
 
 .menuItems a {
   text-decoration: none;
+  color: #fff;
 }
 
 .dropdownWrapper {
@@ -61,11 +73,14 @@
   z-index: 1000;
   min-width: 180px;
   margin-top: 5px;
+  color: white;
 }
 
 .dropdownMenu li {
   margin-bottom: 15px;
   white-space: nowrap;
+  list-style: none;
+  color: white;
 }
 
 .dropdownMenu a {

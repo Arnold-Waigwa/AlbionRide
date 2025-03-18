@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbarWrapper}>
       <span className={styles.navbarImage}>
-        <img src={getImageUrl("nav/Albionride.jpeg")} alt="Albion Ride Logo" />
+        <img src={getImageUrl("Images/Logo.png")} alt="Albion Ride Logo" />
       </span>
       <nav className={styles.navbar}>
         <h3 className={styles.title}>Albion Ride</h3>
