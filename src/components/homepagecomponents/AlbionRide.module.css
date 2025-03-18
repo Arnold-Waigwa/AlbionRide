@@ -1,0 +1,36 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.image {
+  height: 550px;
+  width: 550px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 350px;
+}
+
+.content h1 {
+  color: #501776;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.28px;
+}
+
+.content p {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}

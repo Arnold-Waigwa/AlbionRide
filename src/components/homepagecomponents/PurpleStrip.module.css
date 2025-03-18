@@ -1,0 +1,17 @@
+.container {
+  background: #501776;
+  height: 179px;
+}
+
+.container h1 {
+  color: #ffd504;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 72px */
+  padding-left: 41px;
+  padding-top: 30px;
+  padding-bottom: 31px;
+  padding-right: 200px;
+}

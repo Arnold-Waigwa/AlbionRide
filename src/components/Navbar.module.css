@@ -24,16 +24,19 @@
   display: flex;
   align-items: center;
   margin-right: 50px;
+  background: transparent;
 }
 
 .title {
   margin-right: auto;
+  color: white;
 }
 
 .menuItems {
   display: flex;
   gap: 20px;
   list-style: none;
+  color: white;
 }
 
 .menuItems a {
