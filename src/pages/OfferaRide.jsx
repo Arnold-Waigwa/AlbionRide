@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const OfferaRide = () => {
-  return <div>OfferaRide</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default OfferaRide;

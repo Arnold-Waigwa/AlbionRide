@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { getImageUrl } from "../../utils";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -39,7 +40,7 @@ const Footer = () => {
       </div>
       <div className={styles.loginContainer}>
         <div className={styles.loginBox}>
-          <a href="">Log in/ Sign up</a>
+          <Link to="/login">Log in/Sign up</Link>
         </div>
       </div>
     </footer>

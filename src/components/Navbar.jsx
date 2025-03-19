@@ -36,12 +36,6 @@ const Navbar = () => {
               {isDropdownOpen && (
                 <ul className={styles.dropdownMenu}>
                   <li>
-                    <Link to="/safetyandguidelines">Safety & Guidelines</Link>
-                  </li>
-                  <li>
-                    <Link to="/termsandservices">Terms & Services</Link>
-                  </li>
-                  <li>
                     <Link to="/contactus">Contact Us</Link>
                   </li>
                 </ul>

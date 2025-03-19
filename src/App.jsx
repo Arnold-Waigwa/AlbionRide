@@ -7,8 +7,7 @@ import FindaRide from "./pages/FindaRide";
 import OfferaRide from "./pages/OfferaRide";
 import Navbar from "./components/Navbar";
 import Signup from "./pages/Signup";
-import SafetyandGuidelines from "./pages/SafetyandGuidelines";
-import TermsandServices from "./pages/TermsandServices";
+
 import ContactUs from "./pages/ContactUs";
 import Notfound from "./components/Notfound";
 
@@ -19,8 +18,6 @@ function App() {
     { path: "findaride", element: <FindaRide /> },
     { path: "offeraride", element: <OfferaRide /> },
     { path: "signup", element: <Signup /> },
-    { path: "safetyandguidelines", element: <SafetyandGuidelines /> },
-    { path: "termsandservices", element: <TermsandServices /> },
     { path: "contactus", element: <ContactUs /> },
     { path: "*", element: <Notfound /> },
   ]);
