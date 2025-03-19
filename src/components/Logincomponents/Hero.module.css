@@ -1,0 +1,30 @@
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentContainer h1 {
+  width: 1192px;
+  height: 138px;
+  color: var(--Color, #ffd504);
+  text-align: center;
+  font-family: Karla;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+
+.contentContainer h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 96px */
+  width: 1132px;
+}

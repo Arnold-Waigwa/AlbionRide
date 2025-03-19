@@ -1,0 +1,5 @@
+.footerContainer {
+  position: relative;
+  background-color: white;
+  z-index: 1000;
+}
