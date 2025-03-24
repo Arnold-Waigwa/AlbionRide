@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <form onSubmit={handleSubmit} className={styles.footerForm}>
-        <h3 className={styles.footerTitle}>Enter your login and password</h3>
+        <h3 className={styles.title}>Enter your login and password</h3>
 
         <div className={styles.footerField}>
           <label htmlFor="username" className={styles.footerLabel}>
