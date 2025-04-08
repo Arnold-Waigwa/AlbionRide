@@ -1,25 +1,37 @@
 .heroContainer {
-  position: absolute; /* Remove it from normal document flow */
-  top: 50%; /* Position halfway down the viewport */
-  left: 50%; /* Position halfway across the viewport */
-  transform: translate(
-    -50%,
-    -50%
-  ); /* Offset its own dimensions to center it exactly */
+  position: absolute; /* Remove from normal document flow */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center by adjusting its own dimensions */
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex-shrink: 0;
-  border-radius: 20px 20px 0px 0px;
+
+  width: 400px; /* Updated smaller width */
+  height: 600px; /* Updated smaller height */
+
+  border-radius: 20px 20px 0 0;
   background: #fcfcfc;
-  box-shadow: 0px -2px 10px 0px rgba(34, 43, 69, 0.25);
+  box-shadow: 0 -2px 10px 0 rgba(34, 43, 69, 0.25);
   z-index: 100;
+  margin: 0;
 }
 
-.roadTrip img {
+.arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: auto;
+  margin: 0; /* Remove or adjust margin if needed */
+}
+
+.roadTrip {
   background: transparent;
   object-fit: contain;
-  height: 30px;
-  width: 40px;
+  height: auto;
+  width: 100%;
+  margin: 0; /* Remove default margin */
 }
