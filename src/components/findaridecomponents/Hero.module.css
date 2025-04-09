@@ -1,22 +1,20 @@
 .heroContainer {
-  position: absolute; /* Remove from normal document flow */
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center by adjusting its own dimensions */
-
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  width: 400px; /* Updated smaller width */
-  height: 600px; /* Updated smaller height */
-
-  border-radius: 20px 20px 0 0;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
   background: #fcfcfc;
   box-shadow: 0 -2px 10px 0 rgba(34, 43, 69, 0.25);
   z-index: 100;
   margin: 0;
+  padding-bottom: 8px;
 }
 
 .arrow {
@@ -25,7 +23,11 @@
   left: 0;
   width: 50px;
   height: auto;
-  margin: 0; /* Remove or adjust margin if needed */
+  margin: 0;
+}
+
+.arrow:hover {
+  cursor: pointer;
 }
 
 .roadTrip {
@@ -33,5 +35,14 @@
   object-fit: contain;
   height: auto;
   width: 100%;
-  margin: 0; /* Remove default margin */
+  margin: 0 0 10px 0;
+}
+
+.button {
+  color: white;
+  background-color: #501776;
+  padding: 7px;
+  margin: 8px;
+  border-radius: 5px;
+  text-decoration: none;
 }

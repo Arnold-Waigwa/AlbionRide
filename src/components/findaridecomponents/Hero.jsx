@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className={styles.heroContainer}>
-      <img
-        src={getImageUrl("Images/arrow.png")}
-        alt="Image of arrow"
-        className={styles.arrow}
-      />
+      <Link to="/">
+        <img
+          src={getImageUrl("Images/arrow.png")}
+          alt="Image of arrow"
+          className={styles.arrow}
+        />
+      </Link>
       <img
         src={getImageUrl("Images/roadtrip.png")}
         alt="image of road trip"
