@@ -10,6 +10,7 @@ import Signup from "./pages/Signup";
 
 import ContactUs from "./pages/ContactUs";
 import Notfound from "./components/Notfound";
+import PublishaRide from "./pages/PublishaRide";
 
 function App() {
   const pages = useRoutes([
@@ -20,6 +21,7 @@ function App() {
     { path: "signup", element: <Signup /> },
     { path: "contactus", element: <ContactUs /> },
     { path: "*", element: <Notfound /> },
+    { path: "publisharide", element: <PublishaRide /> },
   ]);
 
   return <>{pages}</>;
