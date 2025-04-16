@@ -7,7 +7,6 @@ import FindaRide from "./pages/FindaRide";
 import OfferaRide from "./pages/OfferaRide";
 import Navbar from "./components/Navbar";
 import Signup from "./pages/Signup";
-
 import ContactUs from "./pages/ContactUs";
 import Notfound from "./components/Notfound";
 import PublishaRide from "./pages/PublishaRide";

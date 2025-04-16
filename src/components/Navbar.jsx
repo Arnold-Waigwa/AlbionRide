@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/findaride">Find a Ride</Link>
           </li>
           <li>
-            <Link to="/offeraride">Offer a Ride</Link>
+            <Link to="/publisharide">Publish a Ride</Link>
           </li>
           <li className={styles.dropdown}>
             <div
